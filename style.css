@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #f8c9dc;
+  color: #2b0d0d;
+}
+
+header {
+  background-color: #6b0010;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  border-bottom: 4px solid #bfa1ff;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffd5f3;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+.texto {
+  width: 55%;
+}
+
+.texto h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  line-height: 1.8;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.imagem {
+  width: 35%;
+  text-align: center;
+}
+
+.imagem img {
+  width: 250px;
+  height: auto;
+}
+
+.assinatura {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #6b0010;
+  height: 30px;
+}
