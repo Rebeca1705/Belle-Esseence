@@ -1,36 +1,54 @@
-* {
-  margin: 0;
+*{
   padding: 0;
-  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Palatino, URW Palladio L, serif;
 }
 
 body {
+
   font-family: 'Playfair Display', serif;
   background-color: #f8c9dc;
   color: #2b0d0d;
 }
 
-header {
-  background-color: #6b0010;
-  display: flex;
-  align-items: center;
-  justify-content:center;
-  padding: 10px 40px;
-  border-bottom: 4px solid #bfa1ff;
-}
 
-.logo img {
-  width: 60px;
+img {
+  width: 100px;
   height: auto;
 }
 
-nav ul {
+
+
+
+.cabecalho {
+
+  overflow: hidden;
+  padding: 15px;
+  background-color:  #6b0010;
+  position: fixed;
+  width: 100%;
   display: flex;
-  list-style: none;
-  gap: 40px;
+  justify-content: center;
 }
 
-nav ul li a {
+.cabecalho a {
+  float: left;
+  display: block;
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+
+}
+
+
+a {
   text-decoration: none;
   font-weight: bold;
   color: #000;
@@ -38,8 +56,9 @@ nav ul li a {
   transition: 0.3s;
 }
 
-nav ul li a:hover {
-  color: #ffd5f3;
+.cabecalho a:hover {
+  background: #ffd5f3;
+  color: black;
 }
 
 .assinatura {
@@ -97,5 +116,13 @@ footer {
 .botao button:hover{
   background-color: #bfa1ff
   border: none;
-  
+
+}
+
+#rodape{
+  background-color: #6b0010;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 0px;
 }
