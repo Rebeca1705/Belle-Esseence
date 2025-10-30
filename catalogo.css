@@ -14,7 +14,7 @@ header {
   background-color: #6b0010;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
   padding: 10px 40px;
   border-bottom: 4px solid #bfa1ff;
 }
@@ -41,14 +41,61 @@ nav ul li a {
 nav ul li a:hover {
   color: #ffd5f3;
 }
+
 .assinatura {
   font-family: 'Dancing Script', cursive;
-  font-size: 1.5em;
-  margin-top: 10px;
-  margin-left: 300px;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 40px;
 }
 
 footer {
   background-color: #6b0010;
   height: 30px;
+}
+
+.imagem1{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 40px;
+}
+
+.imagem1 img{
+  width: 100px;
+  height: 100px
+}
+
+.imagem2 img{
+  width: 100px;
+  height: 100px
+}
+
+.imagem2{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 40px;
+}
+
+.botao{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 60px;
+}
+.botao button{
+  background-color: #6b0010;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.botao button:hover{
+  background-color: #bfa1ff
+  border: none;
+  
 }
