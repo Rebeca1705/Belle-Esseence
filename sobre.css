@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+body {
+
+  font-family: 'Playfair Display', serif;
+  background-color: #f8c9dc;
+  color: #2b0d0d;
+}
+
+
+.cabecalho {
+  height: 90px;
+  overflow: hidden;
+  padding: 15px;
+  background-color: #6b0010;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cabecalho a {
+  float: left;
+  display: block;
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+
+}
+
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+
+.cabecalho a:hover {
+  background: #ffd5f3;
+  color: black;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #6b0010;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #d6c79c;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+.texto {
+  width: 55%;
+  text-align: left;
+}
+
+.texto h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  line-height: 1.8;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.imagem {
+  width: 35%;
+  text-align: center;
+  height: 500px;
+}
+
+.imagem img {
+  width: 350px;
+  height: auto;
+}
+
+.assinatura {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  margin-top: 7px;
+}
+
+footer {
+  background-color: #6b0010;
+  height: 30px;
+}
+
+
+
+#rodape {
+  background-color: #6b0010;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 0px;
+}
