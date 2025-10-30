@@ -1,36 +1,46 @@
-* {
-  margin: 0;
+*{
   padding: 0;
-  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Palatino, URW Palladio L, serif;
 }
 
 body {
+  
   font-family: 'Playfair Display', serif;
   background-color: #f8c9dc;
   color: #2b0d0d;
 }
 
-header {
-  background-color: #6b0010;
+
+.cabecalho {
+
+  overflow: hidden;
+  padding: 20px;
+  background-color:  #6b0010;
+  position: fixed;
+  width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 40px;
-  border-bottom: 4px solid #bfa1ff;
+  justify-content: center;
 }
 
-.logo img {
-  width: 60px;
-  height: auto;
+.cabecalho a {
+  float: left;
+  display: block;
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+
 }
 
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 40px;
-}
 
-nav ul li a {
+a {
   text-decoration: none;
   font-weight: bold;
   color: #000;
@@ -38,9 +48,11 @@ nav ul li a {
   transition: 0.3s;
 }
 
-nav ul li a:hover {
-  color: #ffd5f3;
+.cabecalho a:hover {
+  background: #ffd5f3;
+  color: black;
 }
+
 
 .container {
   display: flex;
@@ -51,6 +63,7 @@ nav ul li a:hover {
 
 .texto {
   width: 55%;
+  text-align: left;
 }
 
 .texto h2 {
@@ -84,4 +97,14 @@ nav ul li a:hover {
 footer {
   background-color: #6b0010;
   height: 30px;
+}
+
+
+
+#rodape{
+  background-color: #6b0010;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 0px;
 }
