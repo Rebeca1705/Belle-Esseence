@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  
+
   font-family: 'Playfair Display', serif;
   background-color: #f8c9dc;
   color: #2b0d0d;
@@ -21,7 +21,7 @@ body {
 .cabecalho {
 
   overflow: hidden;
-  padding: 20px;
+  padding: 15px;
   background-color:  #6b0010;
   position: fixed;
   width: 100%;
@@ -39,6 +39,10 @@ body {
 
 }
 
+.cabecalho img{
+  width: 100px;
+  height: auto;
+}
 
 a {
   text-decoration: none;
@@ -78,15 +82,7 @@ a {
   margin-bottom: 20px;
 }
 
-.imagem {
-  width: 35%;
-  text-align: center;
-}
 
-.imagem img {
-  width: 250px;
-  height: auto;
-}
 
 .assinatura {
   font-family: 'Dancing Script', cursive;
@@ -99,6 +95,10 @@ footer {
   height: 30px;
 }
 
+.imagem img {
+  width: 350px;
+  height: auto;
+}
 
 
 #rodape{
