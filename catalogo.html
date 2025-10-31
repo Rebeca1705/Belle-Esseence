@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Belle Essence</title>
   <link rel="stylesheet" href="catalogo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <div class="cabecalho">
     <img src="logo.png">
     <a href="index.html">Home</a>
-    <a href="catalogo.html">Catalogo</a>
+    <a href="catalogo.html">Catálogo</a>
     <a href="sobre.html">Sobre</a>
     <a href="duvidas.html">Duvidas</a>
     <a href="contato.html">Contato</a>
@@ -34,7 +35,7 @@
      <button>Comprar</button>
      <button>Comprar</button>
    </div>
-   
+
 </div>
 
   <div class="assinatura">
@@ -59,5 +60,17 @@
     <p>&copy;Belle Essence 2025 .Todos os direitos reservados.</p>
   </div>
 
+  <script>
+    document.querySelectorAll('.botao button').forEach(function(button) {
+      button.addEventListener('click', function() {
+        const texto = `Olá gostaria de saber mais sobre os protudos!`;
+        const url = `https://wa.me/5527995118592?text=${encodeURIComponent(texto)}`;
+        window.open(url, "_blank");
+      });
+    });
+
+  </script>
+
+  
 </body>
 </html>
