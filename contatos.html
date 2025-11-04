@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Belle Essence</title>
+  <link rel="stylesheet" href="contatos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="cabecalho">
+    <img src="logo.png">
+    <a href="index.html">Home</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="duvidas.html">Dúvidas</a>
+    <a href="contatos.html">Contato</a>
+  </div>
+
+
+   <br><br><br><br><br><br><br>
+
+  
+<div id="contato">
+  <div id="conteudo">
+      <h3 class="title">Contato</h3>
+      <p class="description">Entre em contato comigo pelo Whatsapp</p>
+
+
+      <form id="whatsappForm">
+
+        <input type="text" id="nome" placeholder="Seu nome" required />
+
+        <input type="email" id="email" placeholder="Seu email" required />
+
+        <textarea id="mensagem"
+   placeholder="Digite sua mensagem" rows="5" required></textarea>
+
+
+    <button type="submit"> Enviar no Whatsapp </button>
+
+      </form>
+
+
+  <div class="social-links">
+
+      <h4>Me siga nas redes sociais :</h4> 
+  <div class="rede-social">
+      <a href="https://www.tiktok.com" target="_blank">Tiktok</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+  </div>
+   </div>
+  </div>
+</div>
+  
+
+   <br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+    <div id="rodape">
+      <p>&copy;Belle Essence 2025 .Todos os direitos reservados.</p>
+
+    </div>
+
+    <script>
+      document.getElementById("whatsappForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+        const nome = document.getElementById("nome").value;
+        const email = document.getElementById("email").value;
+        const mensagem = document.getElementById("mensagem").value;
+
+        const texto = `Olá, meu nome é ${nome} (${email}) e gostaria de falar: ${mensagem}`;
+        const url = `https://wa.me/5527995118592?text=${encodeURIComponent(texto)}`;
+
+        window.open(url, "_blank");
+      });
+
+    </script>
+  </body>
+
+  </html>
