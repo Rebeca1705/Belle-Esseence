@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Palatino, URW Palladio L, serif;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #f8c9dc;
+  color: #2b0d0d;
+}
+
+
+
+.cabecalho {
+  height: 90px;
+  overflow: hidden;
+  background-color: #6b0010;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cabecalho a {
+  float: left;
+  display: block;
+  color: black;
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+
+}
+
+
+.cabecalho a:hover {
+  background: #ffd5f3;
+  color: black;
+}
+
+.cabecalho img {
+  width: 100px;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+
+.cabecalho a:hover {
+  background: #ffd5f3;
+  color: black;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+.texto {
+  width: 55%;
+  text-align: left;
+}
+
+.texto h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  line-height: 1.8;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+
+
+.assinatura {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #6b0010;
+  height: 30px;
+}
+
+.imagem img {
+  width: 350px;
+  height: auto;
+}
+
+
+#rodape {
+  background-color: #6b0010;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 0px;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 2px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+#contato {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+
+input[type="text"] {
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  margin-top: 5px;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px;
+  border-radius: 4px;
+}
+
+
+button{
+  width: 100px;
+  padding: 10px;
+  background-color: #6b0010;
+  border: none;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  
+  
+}
+
+#conteudo a {
+  background-color: #6b0010;
+  padding:5px;
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 150px;
+  margin: 5px;
+  
+}
+
+.rede-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#whatsappForm button {
+  margin-left: 100px;
+}
